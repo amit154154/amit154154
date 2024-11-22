@@ -37,7 +37,7 @@
 - **Adapter Training**: Trained an adapter with a frozen [SigLIP image encoder](https://github.com/FoundationVision/VAR) and a lightweight LoRA module.
 - **Text-to-Image Generation**: Enabled by replacing the SigLIP image encoder with its text encoder, retaining frozen components for efficiency and quality.
 
-![VAR Explained](assets/projects_images/PopYou2/VAR_explained.png)
+![VAR Explained](PopYou2/VAR_explained.png)
 
 ---
 
@@ -51,9 +51,7 @@
 - **Diverse Training**: Trained on datasets like COCO, Soccer, and Cityscapes with varying sample sizes and class distributions.
 - **Foundation Models Integration**: Explored enhancements using models with prior class-oriented knowledge (e.g., CLIP, SigLIP).
 
-![Cityscapes](assets/projects_images/few_shot_sam_lora/cityscapes.png)
-![COCO](assets/projects_images/few_shot_sam_lora/coco.png)
-![Soccer](assets/projects_images/few_shot_sam_lora/soccer.png)
+![Cityscapes](few_shot_sam_lora/cityscapes.png)
 
 ---
 
@@ -68,12 +66,8 @@
 - **Research Implementation**: Implemented ["Bridging CLIP and StyleGAN through Latent Alignment for Image Editing"](https://arxiv.org/abs/2210.04506).
 - **Advanced Experimentation**: Explored loss functions, latent spaces, and mapper architectures, introducing fine-tuning for robustness.
 
-![Mapper Training](assets/projects_images/CelebryLook/mapper_training.png)
+![Mapper Training](CelebryLook/mapper_training.png)
 
-<video controls autoplay muted>
-  <source src="assets/projects_images/CelebryLook/celebrityLook_demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ---
 
@@ -87,8 +81,8 @@
 - **3D Generation Exploration**: Included mesh creation and multi-view rendering using diffusion models and textual inversion.
 - **Benchmarking**: Evaluated against Deci Diffusion using CLIP similarity and FID scores.
 
-![Barack Obama FastGAN](assets/projects_images/PopYou!/Barack_Obama_fastgan.png)
-![RAS DreamGaussian](assets/projects_images/PopYou!/ras_dreamgaussian.gif)
+![Barack Obama FastGAN](Barack_Obama_fastgan.png)
+![RAS DreamGaussian](PopYou!/ras_dreamgaussian.gif)
 
 ---
 
@@ -104,7 +98,7 @@
 - **Platforms**: Available on [Spotify](https://open.spotify.com/show/0fuZbZipy60VdRpkbIb9y1) and [YouTube](https://www.youtube.com/channel/UCIbCIgJjIWmHyKC0Qc_C6FA).
 
 <video controls autoplay muted>
-  <source src="assets/projects_images/koala_reading_ai/koala_reading_ai_gif.mp4" type="video/mp4">
+  <source src="koala_reading_ai/koala_reading_ai_gif.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
