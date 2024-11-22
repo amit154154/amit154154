@@ -1,17 +1,125 @@
-### Hi there 👋
+# Amit Israeli - Research Engineer
 
-<!--
-**amit154154/amit154154** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
+👋 **Welcome to my GitHub!** I'm **Amit Israeli**, a Research Engineer specializing in Deep Learning and Computer Vision. My passion lies in developing innovative AI solutions, particularly in the realms of real-time systems, few-shot learning, and generative models.
 
-Here's a quick snapshot of me:
+---
 
-- 🔭 I’m currently working at Nlpearl as a deep learning resercher and engineer, making robots talk on the phone see basically.
-- 👯 I’m looking to collaborate on cool projects involving AI and computer vision, especially those where the robots don’t take over the world.
-- 📫 How to reach me: Drop me a message on GitHub or send a carrier pigeon my way!
-### Let's connect!
-Feel free to reach out if you're interested in AI, can explain quantum computing without causing a brain error, or just want to chat about technology!
+## 🔭 Experience
 
-<!--
-Thanks for stopping by!
--->
+### **NLPearl** &nbsp;&nbsp;&nbsp;&nbsp; *Deep Learning Research Engineer*
+
+*July 2024 - Present*
+
+- **Conversational AI Enhancements**: Developed real-time systems to detect conversational pauses and suggest optimal starter sentences for AI agents using fine-tuned LLMs with specialized prediction heads.
+- **Architectural Innovations**: Experimented with encoder-based and decoder-pretrained models, applying LoRA and multi-stage training to enhance prediction accuracy.
+- **Small Language Model Design**: Created an SLM to generate task-specific tokens, enabling multi-task outputs from a single fine-tuned model for efficient real-time inference.
+- **Audio Tokenization Solutions**: Designed solutions using pre-trained state-of-the-art audio tokenization models and LLMs tailored for audio-specific objectives.
+
+### **Pashoot Robotics** &nbsp;&nbsp;&nbsp;&nbsp; *Computer Vision and Deep Learning Research Engineer*
+
+*May 2023 - July 2024*
+
+- **Vision Solutions for Automation**: Enhanced and innovated vision solutions critical to manufacturing automation.
+- **Applied Deep Learning**: Conducted research in 3D reconstruction, object detection, segmentation (few-shot, zero-shot), tracking, 6DOF estimation, and simulation using Blender.
+
+---
+
+## 💻 Projects
+
+### [**PopYou2 - VAR Text**](https://github.com/amit154154/PopYou2)
+
+[![GitHub Stars](https://img.shields.io/github/stars/amit154154/PopYou2?style=social)](https://github.com/amit154154/VAR_clip)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Spaces-orange)](https://huggingface.co/spaces/AmitIsraeli/PopYou)
+[![Weights & Biases](https://img.shields.io/badge/Weights%20%26%20Biases-Report-yellow)](https://api.wandb.ai/links/amit154154/cqccmfsl)
+
+- **Dataset Creation**: Generated ~100,000 Funko Pop! images with detailed prompts using [SDXL Turbo](https://huggingface.co/stabilityai/sdxl-turbo).
+- **Model Fine-Tuning**: Adapted the [Visual AutoRegressive (VAR)](https://arxiv.org/abs/2404.02905) model for Funko Pop! generation by injecting a custom "doll" embedding.
+- **Adapter Training**: Trained an adapter with a frozen [SigLIP image encoder](https://github.com/FoundationVision/VAR) and a lightweight LoRA module.
+- **Text-to-Image Generation**: Enabled by replacing the SigLIP image encoder with its text encoder, retaining frozen components for efficiency and quality.
+
+![VAR Explained](assets/projects_images/PopYou2/VAR_explained.png)
+
+---
+
+### [**Few-Shot Segmentation with SAM and LoRA**](https://github.com/amit154154/SAM_LORA)
+
+[![GitHub Stars](https://img.shields.io/github/stars/amit154154/SAM_LORA?style=social)](https://github.com/amit154154/SAM_LORA)
+
+- **LoRA Adaptation**: Employed LoRA to adapt SAM for few-shot segmentation with minimal images.
+- **Prompt-Free Segmentation**: Eliminated reliance on external prompts or detection models like Grounding SAM or YOLO.
+- **Performance Boost**: Outperformed prior methods (e.g., [PerSAM](https://arxiv.org/abs/2305.03048)) in class-specific segmentation quality and flexibility.
+- **Diverse Training**: Trained on datasets like COCO, Soccer, and Cityscapes with varying sample sizes and class distributions.
+- **Foundation Models Integration**: Explored enhancements using models with prior class-oriented knowledge (e.g., CLIP, SigLIP).
+
+![Cityscapes](assets/projects_images/few_shot_sam_lora/cityscapes.png)
+![COCO](assets/projects_images/few_shot_sam_lora/coco.png)
+![Soccer](assets/projects_images/few_shot_sam_lora/soccer.png)
+
+---
+
+### [**CelebrityLook**](https://github.com/amit154154/CelebrityLook)
+
+[![GitHub Stars](https://img.shields.io/github/stars/amit154154/CelebrityLook?style=social)](https://github.com/amit154154/CelebrityLook)
+
+- **Real-Time Face Transformation**: Developed a mobile app utilizing advanced GAN technologies on-device.
+- **High Performance**: Achieved 30fps on mobile devices with optimized CoreML models.
+- **Award-Winning**: Won the MobileXGenAI hackathon hosted by Samsung Next.
+- **Quality Enhancements**: Combined multiple losses from foundation models and facial feature extractors.
+- **Research Implementation**: Implemented ["Bridging CLIP and StyleGAN through Latent Alignment for Image Editing"](https://arxiv.org/abs/2210.04506).
+- **Advanced Experimentation**: Explored loss functions, latent spaces, and mapper architectures, introducing fine-tuning for robustness.
+
+![Mapper Training](assets/projects_images/CelebryLook/mapper_training.png)
+
+<video controls autoplay muted>
+  <source src="assets/projects_images/CelebryLook/celebrityLook_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
+
+### [**PopYou - FastGAN CLIP**](https://github.com/amit154154/PopYou)
+
+[![GitHub Stars](https://img.shields.io/github/stars/amit154154/PopYou?style=social)](https://github.com/amit154154/PopYou)
+
+- **Semi-Synthetic Dataset**: Created using an image upscaling model and Deci Diffusion.
+- **GAN Training**: Trained with FastGAN to generate high-quality Funko Pop designs.
+- **Inversion Model Development**: Based on a frozen CLIP backbone for image generation from text and real-life images.
+- **3D Generation Exploration**: Included mesh creation and multi-view rendering using diffusion models and textual inversion.
+- **Benchmarking**: Evaluated against Deci Diffusion using CLIP similarity and FID scores.
+
+![Barack Obama FastGAN](assets/projects_images/PopYou!/Barack_Obama_fastgan.png)
+![RAS DreamGaussian](assets/projects_images/PopYou!/ras_dreamgaussian.gif)
+
+---
+
+### [**KoalaReadingAI**](#)
+
+[![Spotify](https://img.shields.io/badge/Spotify-Podcast-green)](https://open.spotify.com/show/0fuZbZipy60VdRpkbIb9y1)
+[![YouTube](https://img.shields.io/badge/YouTube-Channel-red)](https://www.youtube.com/channel/UCIbCIgJjIWmHyKC0Qc_C6FA)
+
+- **AI Podcast Founder**: Automatically summarizes the latest AI research papers.
+- **Tech Stack**: Utilizes ElevenLabs text-to-speech and ChatPDF APIs.
+- **Automation**: Downloads latest papers from Hugging Face daily.
+- **Free TTS Implementation**: Using Tortoise-TTS; working on Llama 2 summaries.
+- **Platforms**: Available on [Spotify](https://open.spotify.com/show/0fuZbZipy60VdRpkbIb9y1) and [YouTube](https://www.youtube.com/channel/UCIbCIgJjIWmHyKC0Qc_C6FA).
+
+<video controls autoplay muted>
+  <source src="assets/projects_images/koala_reading_ai/koala_reading_ai_gif.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
+
+## 📫 Contact Me
+
+- **Email**: [amit1541541@gmail.com](mailto:amit1541541@gmail.com)
+- **LinkedIn**: [linkedin.com/in/amit-israeli-aa4a30242](https://www.linkedin.com/in/amit-israeli-aa4a30242/)
+- **GitHub**: [github.com/amit154154](https://github.com/amit154154)
+
+---
+
+&copy; 2024 Amit Israeli. All rights reserved.
+
+---
+
+Feel free to explore my repositories and get in touch if you're interested in collaboration or have any questions!
