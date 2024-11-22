@@ -81,8 +81,7 @@
 - **3D Generation Exploration**: Included mesh creation and multi-view rendering using diffusion models and textual inversion.
 - **Benchmarking**: Evaluated against Deci Diffusion using CLIP similarity and FID scores.
 
-![Barack Obama FastGAN](Barack_Obama_fastgan.png)
-![RAS DreamGaussian](PopYou!/ras_dreamgaussian.gif)
+![Barack Obama FastGAN](PopYou!/Barack_Obama_fastgan.png)
 
 ---
 
