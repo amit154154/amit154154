@@ -1,28 +1,35 @@
-# Amit Israeli - Research Engineer
+Amit Israeli - Research Engineer
 
-👋 **Welcome to my GitHub!** I'm **Amit Israeli**, a Research Engineer specializing in Deep Learning and Computer Vision. My passion lies in developing innovative AI solutions, particularly in the realms of real-time systems, few-shot learning, and generative models.
+👋 Welcome to my GitHub! I’m Amit Israeli, a Research Engineer specializing in Deep Learning and Computer Vision. My passion lies in developing innovative AI solutions, particularly in the realms of real-time systems, few-shot learning, and generative models.
 
----
+⸻
 
-## 🔭 Experience
+🔭 Experience
 
-### **NLPearl** &nbsp;&nbsp;&nbsp;&nbsp; *Deep Learning Research Engineer*
+Reality Defender      Computer Vision Research Engineer
 
-*July 2024 - Present*
+Jan 2025 - Present
+	•	Deepfake Detection: Developing and optimizing AI-driven security solutions to detect deepfakes and fraudulent media.
 
-- **Conversational AI Enhancements**: Developed real-time systems to detect conversational pauses and suggest optimal starter sentences for AI agents using fine-tuned LLMs with specialized prediction heads.
-- **Architectural Innovations**: Experimented with encoder-based and decoder-pretrained models, applying LoRA and multi-stage training to enhance prediction accuracy.
-- **Small Language Model Design**: Created an SLM to generate task-specific tokens, enabling multi-task outputs from a single fine-tuned model for efficient real-time inference.
-- **Audio Tokenization Solutions**: Designed solutions using pre-trained state-of-the-art audio tokenization models and LLMs tailored for audio-specific objectives.
+Freelance      Computer Vision Research Engineer
 
-### **Pashoot Robotics** &nbsp;&nbsp;&nbsp;&nbsp; *Computer Vision and Deep Learning Research Engineer*
+Dec 2024 - Present
+	•	Edge Vision Models: Collaborated with LuckyLab to deploy cutting-edge CV models for edge devices.
+	•	Real-Time Segmentation & Detection: Focused on resource-constrained environments with efficient segmentation and detection algorithms.
 
-*May 2023 - July 2024*
+NLPearl      Deep Learning Research Engineer
 
-- **Vision Solutions for Automation**: Enhanced and innovated vision solutions critical to manufacturing automation.
-- **Applied Deep Learning**: Conducted research in 3D reconstruction, object detection, segmentation (few-shot, zero-shot), tracking, 6DOF estimation, and simulation using Blender.
+Jul 2024 - Jan 2025
+	•	Conversational AI Enhancements: Developed real-time systems to detect conversational pauses and suggest optimal starter sentences for AI agents using fine-tuned LLMs with specialized prediction heads.
+	•	Architectural Innovations: Experimented with encoder-based and decoder-pretrained models, applying LoRA and multi-stage training to enhance prediction accuracy.
+	•	Small Language Model Design: Created an SLM to generate task-specific tokens, enabling multi-task outputs from a single fine-tuned model for efficient real-time inference.
+	•	Audio Tokenization Solutions: Designed solutions using pre-trained state-of-the-art audio tokenization models and LLMs tailored for audio-specific objectives.
 
----
+Pashoot Robotics      Computer Vision and Deep Learning Research Engineer
+
+May 2023 - Jul 2024
+	•	Vision Solutions for Automation: Enhanced and innovated vision solutions critical to manufacturing automation.
+	•	Applied Deep Learning: Conducted research in 3D reconstruction, object detection, segmentation (few-shot, zero-shot), tracking, 6DOF estimation, and simulation using Blender.
 
 ## 💻 Projects
 
