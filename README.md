@@ -1,3 +1,10 @@
+# Amit Israeli - Research Engineer
+
+👋 **Welcome to my GitHub!** I'm **Amit Israeli**, a Research Engineer specializing in Deep Learning and Computer Vision. My passion lies in developing innovative AI solutions, particularly in the realms of real-time systems, few-shot learning, and generative models.
+
+
+⸻
+
 ## 🔭 Experience
 
 ### **Reality Defender** &nbsp;&nbsp;&nbsp;&nbsp; *Computer Vision Research Engineer*  
