@@ -12,7 +12,7 @@
 - **Deepfake Detection**: Developing and optimizing AI-driven security solutions to detect deepfakes and fraudulent media.
 
 ### **Freelance** &nbsp;&nbsp;&nbsp;&nbsp; *Computer Vision Research Engineer*  
-*Dec 2024 - Present*  
+*Dec 2024 - Mar 2025*  
 - **Edge Vision Models**: Collaborated with [LuckyLab](https://www.luckylab.org/) to deploy cutting-edge CV models for edge devices.  
 - **Real-Time Segmentation & Detection**: Focused on resource-constrained environments with efficient segmentation and detection algorithms.
 
