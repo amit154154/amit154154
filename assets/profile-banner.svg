@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+<title id="title">Amit Israeli — AI research, useful things, a few koalas.</title><desc id="desc">A forest green banner with a small koala and a constellation of connected research nodes.</desc>
+<rect width="1200" height="260" rx="20" fill="#13241e"/>
+<g fill="none" stroke="#385747" stroke-width="1.5"><path d="M825 210L886 152 962 191 1029 112 1120 159M825 62L886 152 949 65 1029 112 1102 53"/></g>
+<g fill="#91ccb0"><circle cx="825" cy="62" r="4"/><circle cx="825" cy="210" r="4"/><circle cx="949" cy="65" r="5"/><circle cx="962" cy="191" r="4"/><circle cx="1102" cy="53" r="4"/><circle cx="1120" cy="159" r="5"/></g>
+<text x="54" y="87" fill="#f1f4ec" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="47" font-weight="700">Amit Israeli</text>
+<text x="56" y="134" fill="#9dd2b5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="23">AI research. Useful things. A few koalas.</text>
+<text x="56" y="199" fill="#b3beb5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18">Generative models · multimodal systems · research into practice</text>
+<g transform="translate(1014 119)"><circle cx="-32" cy="-12" r="20" fill="#83958d"/><circle cx="32" cy="-12" r="20" fill="#83958d"/><circle cx="-32" cy="-12" r="12" fill="#b7b6ac"/><circle cx="32" cy="-12" r="12" fill="#b7b6ac"/><ellipse cy="10" rx="39" ry="35" fill="#a9b8ac"/><ellipse cy="17" rx="10" ry="15" fill="#263a31"/><circle cx="-17" cy="3" r="3" fill="#20352b"/><circle cx="17" cy="3" r="3" fill="#20352b"/><path d="M-7 36Q0 41 7 36" fill="none" stroke="#263a31" stroke-width="2" stroke-linecap="round"/></g>
+</svg>
